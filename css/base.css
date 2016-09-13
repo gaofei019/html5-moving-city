@@ -1,0 +1,99 @@
+@charset 'utf-8';
+*{word-break:break-all;}
+a, abbr, address, b, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, samp, small, span, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-weight: 400
+}
+
+article, aside, dialog, figure, footer, header, menu, nav, section {
+    display: block
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal
+}
+
+figure {
+    margin: 0
+}
+
+ol, ul {
+    list-style: none
+}
+
+body {
+    font: 12px/1.75 "微软雅黑", "宋体", Arial, sans-serif;
+    color: #999;
+    background: #fff
+}
+
+i {
+    font-style: normal
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    outline: 0 none
+}
+
+.bot_ad_wz a:hover, a:hover {
+    text-decoration: underline;
+    color: #f67231
+}
+fieldset, img ,a,input,textarea{border:0;outline:0;}
+select,input,img{vertical-align:middle;}
+input,textarea{background:transparent;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill{-webkit-box-shadow: 0 0 0px 1000px #fff inset; }
+table {border-collapse:collapse;border-spacing:0;}
+
+.adArea:after, .area:after, .askArea:after, .askListTitle:after, .bbsAreaTitle:after, .bbsHot:after, .brandArea:after, .clear:after, .communityHead:after, .expertInterviewCon:after, .footNavArea dd:after, .footNavCon:after, .footweixin li:after, .knowledgeHead:after, .loginUser:after, .newsList:after, .picList:after, .productArea:after, .productAttDesc:after, .productAttInfo:after, .productAttList li:after, .productAttList:after, .sameCity li:after, .sameCity:after, .sqHeadlineTitle:after, .superUserList:after, .taskList li:after, .todayHotTitle:after, .toolsList, .toolsList li:after, .toolsList:after, .topList:after, .wkCenterCmd:after, .wkCenterList li:after, .wkCmd li:after, .ylTalkList:after, .zsBottom.after, .zsTobTabUl:after, .zsTopCon:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.adArea, .area, .askArea, .askListTitle, .bbsAreaTitle, .bbsHot, .brandArea, .cf, .clear, .clearfix, .communityHead, .expertInterviewCon, .footNavArea dd, .footNavCon, .footweixin li, .knowledgeHead, .loginUser, .newsList, .picList, .productArea, .productAttDesc, .productAttInfo, .productAttList, .productAttList li, .sameCity, .sameCity li, .sqHeadlineTitle, .superUserList, .taskList li, .todayHotTitle, .toolsList, .toolsList li, .topList, .wkCenterCmd, .wkCenterList li, .wkCmd li, .ylTalkList, .zsBottom, .zsTobTabUl, .zsTopCon {
+    zoom: 1
+}
+
+.cf:after, .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.clearboth {
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    width: 100%
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+.arrow{width:0;height:0;overflow:hidden;font-size:0;line-height:0;border-style:solid;}
+.arrow-bottom{border-color:#6c6c6c transparent transparent;_border-style:solid dashed dashed;}
+.arrow-up{border-color:transparent transparent #6c6c6c;_border-style:dashed dashed solid;}
+.arrow-right{border-color:transparent transparent transparent #6c6c6c;_border-style:dashed dashed dashed solid;}
+.arrow-left{border-color:transparent #6c6c6c transparent transparent;_border-style:dashed solid dashed dashed;}
+.text-ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.fixed{
+    position:fixed;
+    _position:absolute;
+    bottom:10px;
+    _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+}
